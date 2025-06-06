@@ -34,6 +34,7 @@ To run this project, you’ll need the following Python packages:
 
 ```bash
 pip install streamlit pandas plotly
+```
 
 ## 🚀 Getting Started
 
@@ -42,17 +43,26 @@ pip install streamlit pandas plotly
 ```bash
 git clone https://github.com/zahra-ynp/DataVisualizationProject-Paris2024Olympic.git
 cd paris2024-age-analysis
+```
 
 ### 2. Download the Dataset
-Download athletes.csv from the Kaggle dataset and place it in the root of your project directory.
+
+Download `athletes.csv` from the Kaggle dataset and place it in the root of your project directory.
 
 ### 3. Install the Dependencies
+
+```bash
 pip install streamlit pandas plotly
+```
 
 ### 4. Run the App
+
+```bash
 streamlit run app.py
+```
 
 ## 🧠 Author Notes
+
 - Sport categories were self-defined for clearer comparative analysis.
 - Ages are calculated based on birth dates relative to the Paris 2024 opening date (July 26, 2024).
 - Only valid entries with complete birth dates and sport categories were considered in the analysis.
